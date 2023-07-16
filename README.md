@@ -7,8 +7,6 @@
 Users will need to install npm libaries by running: 
 > npm i
 
-New notes are added by clicking the '+' sign on the top right-hand corner. To save the current note, click the save icon next to the '+' sign. To delete a note, click the red trash can next to your title note.
-
 ## User Story
 ```
 AS A small business owner
@@ -34,6 +32,7 @@ THEN I find a concise, descriptive title
 ## Usage
 Initialize the server script through command line by running:
 >node server.js
+New notes are added by clicking the '+' sign on the top right-hand corner. To save the current note, click the save icon next to the '+' sign. To delete a note, click the red trash can next to your title note.
 
 
 ## Review
