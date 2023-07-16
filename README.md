@@ -46,4 +46,5 @@ New notes are added by clicking the '+' sign on the top right-hand corner. To sa
 
 ## Review
 The URL of the deployed application (https://note-taker-krs-2f1bcb68cd34.herokuapp.com/)
+
 The URL of the GitHub repository (https://github.com/krsilveira/Challenge-11-)
