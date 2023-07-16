@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Breakfast",
+        "text": "Cook breakfast at 6am to have it ready by 7am",
+        "id": "9e173d54-309a-4df0-8915-f3ef1403b90a"
+    },
+    {
+        "title": "Backyard Lawn",
+        "text": "Mow the lawn at 10am",
+        "id": "28289837-c189-495d-ba69-c49c9d62c864"
+    },
+    {
+        "title": "Lunch",
+        "text": "Eat lunch at 12pm",
+        "id": "ff05d244-f554-4b3d-a4e2-89854b9818e1"
+    },
+    {
+        "title": "Soccer",
+        "text": "Play soccer with friends at 6pm at BridgeWater",
+        "id": "8d711704-ff3d-4513-bbd2-0baba838d8cb"
+    },
+    {
+        "title": "HW",
+        "text": "HW is due at midnight",
+        "id": "ef1397e1-92d8-4bc5-ad5c-561792df926c"
+    }
+]
