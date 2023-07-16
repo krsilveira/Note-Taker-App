@@ -32,7 +32,7 @@ THEN I find a concise, descriptive title
 ## Usage
 Initialize the server script through command line by running:
 >node server.js
-
+Now open <http://localhost:3001> on any web broswer.
 New notes are added by clicking the '+' sign on the top right-hand corner. To save the current note, click the save icon next to the '+' sign. To delete a note, click the red trash can next to your title note.
 
 
