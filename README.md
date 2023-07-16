@@ -1,6 +1,12 @@
 # Note Taker
 
 ## Description
+This project is designed as a personal note taker to track personal tasks by adding and saving notes. These are the highlighted proficicncies throughout development:
+* fs
+* routing
+* Express.js
+* GET/POST/DELETE requests
+* Heroku deployment for live website
 
 
 # Installations
@@ -34,9 +40,10 @@ Initialize the server script through command line by running:
 >node server.js
 
 Now open <http://localhost:3001> on any web broswer.
+
 New notes are added by clicking the '+' sign on the top right-hand corner. To save the current note, click the save icon next to the '+' sign. To delete a note, click the red trash can next to your title note.
 
 
 ## Review
-The URL of the deployed application ()
+The URL of the deployed application (https://note-taker-krs-2f1bcb68cd34.herokuapp.com/)
 The URL of the GitHub repository (https://github.com/krsilveira/Challenge-11-)
