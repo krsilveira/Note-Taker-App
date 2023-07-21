@@ -51,7 +51,7 @@ The URL of the GitHub repository (https://github.com/krsilveira/Challenge-11-)
 
 ## Credit
 
-Starter code provided from the following individuals:
-John McCambridge: https://github.com/nol166
-George Yoo: https://github.com/Georgeyoo
-Xander Rapstine: https://github.com/Xandromus
+Starter code provided from the following individuals: <br>
+John McCambridge: https://github.com/nol166 <br>
+George Yoo: https://github.com/Georgeyoo <br>
+Xander Rapstine: https://github.com/Xandromus <br>
