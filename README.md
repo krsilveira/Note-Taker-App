@@ -9,9 +9,15 @@ This project is designed as a personal note taker to track personal tasks by add
 * Heroku deployment for live website
 
 
-# Installations
+# Installations & Usage
 Users will need to install npm libaries by running: 
-> npm i
+> npm i <br>
+
+Then, initialize the server script through the CLI by running:
+> node server.js
+> Open <http://localhost:3001> on a web broswer <br>
+
+To add a new note, click the plus sign on the top right-hand corner or to save a current note, click the save icon next to the plus sign. To delete a note, click the red trashcan next to your title note. 
 
 ## User Story
 ```
@@ -35,14 +41,6 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
 
-## Usage
-Initialize the server script through command line by running:
->node server.js
-
-Now open <http://localhost:3001> on any web broswer.
-
-New notes are added by clicking the '+' sign on the top right-hand corner. To save the current note, click the save icon next to the '+' sign. To delete a note, click the red trash can next to your title note.
-
 
 ## Review
 The URL of the deployed application (https://note-taker-krs-2f1bcb68cd34.herokuapp.com/)
@@ -55,3 +53,5 @@ Starter code provided from the following individuals: <br>
 John McCambridge: https://github.com/nol166 <br>
 George Yoo: https://github.com/Georgeyoo <br>
 Xander Rapstine: https://github.com/Xandromus <br>
+
+Thanks to https://stackoverflow.com threads for assistance.
