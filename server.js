@@ -5,7 +5,7 @@ const path = require('path');
 const generateUniqueId = require('generate-unique-id');
 const app = express();
 const {error} = require('console');
-const fs = require('fs/promise');
+const fs = require('fs').promises;
 // INSTALL PORT 
 const PORT = process.env.PORT || 3000;
 
