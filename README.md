@@ -15,7 +15,6 @@ Users will need to install npm libaries by running:
 
 Then, initialize the server script through the CLI by running:
 > node server.js <br>
-
 > Open <http://localhost:3001> on a web broswer <br>
 
 To add a new note, click the plus sign on the top right-hand corner or to save a current note, click the save icon next to the plus sign. To delete a note, click the red trashcan next to your title note. 
