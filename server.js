@@ -42,8 +42,7 @@ app.get('/notes', (req, res) =>
 
 // db/db.json file 
 //GET route 
-app.get('/api/notes', async (req, res) => {
-  let notes = await readCurrentDB()
+app.get('/api/notes', async (req, res) => { let notes = await readCurrentDB()
   res.json(notes)
 });
 
