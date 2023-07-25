@@ -1,11 +1,12 @@
 //GLOBAL VARIABLES
 
 const notes = require('express').Router();
+
 const { readFromFile, readAndAppend, writeToFile, } = require('../helpers/fsUtils');
 const { v4: uuidv4 } = require('uuid');
 
 
-// notes.get retirves ALL notes
+//  ALL notes are being retrieved through a get post
 notes.get('/', (req, res) => { readFromFile('./db/db.json').then((data) => {
     // console.log(`Raw data in db is: ${data}`); 
      res.json(JSON.parse(data));
@@ -21,7 +22,6 @@ notes.get('/:id', (req, res) => { const noteId = req.params.id;
         ? res.json(result)
         : res.json('No note with that ID'); }); // error message when note does not exist
 });
-
 
 
 // notes.deleted function responds to a specific note the User selects for deletion when clicking the trashcan icon
@@ -40,7 +40,8 @@ notes.delete('/:id', (req, res) => {
     });
 });
 
-notes.post('/', (req, res) => { console.log(req.body);
+//feedback submission 
+notes.post('/', (req, res) => { console.log(req.body); // destructing assignment for items inside req.body
 
   const { title, text } = req.body; if (req.body) { const newNote = { title, text, id: uuidv4(),
      };
@@ -52,7 +53,6 @@ notes.post('/', (req, res) => { console.log(req.body);
     res.error('Error in adding note'); // response Error message indicating in unsuccessful note addition 
   }
 });
-
 
 
 //module export
