@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3001;
 //Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('public'));
+app.use('/public', express.static('public'));
 
 
 // READ database for json file
@@ -36,7 +36,7 @@ app.get('/', (req, res) =>
 
 // NOTES page 
 // GET route
-app.get('/notes', (req, res) =>
+app.get('/public/notes.html', (req, res) =>
   res.sendFile(path.join(__dirname, './public/notes.html'))
 );
 
