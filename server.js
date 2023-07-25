@@ -7,7 +7,7 @@ const app = express();
 const {error} = require('console');
 const fs = require('fs').promises;
 // INSTALL PORT 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 
 //Middleware
