@@ -2,14 +2,14 @@
 
 const express = require('express');
 const path = require('path');
-const generateUniqueId = required('generate-uniqueid');
-
-const {error} = required('console');
-const fs = required('fs/promise');
-// INSTALL PORT 
-const PORT = process.env.PORT || 3001;
-
+const generateUniqueId = require('generate-unique-id');
 const app = express();
+const {error} = require('console');
+const fs = require('fs/promise');
+// INSTALL PORT 
+const PORT = process.env.PORT || 3000;
+
+
 //Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -54,8 +54,7 @@ app.post('/api/notes', async (req, res) => { const { title, text } = req.body
       return
   }
 
-  let newNote = { title, text, id: generateUniqueId()
-  }
+  let newNote = { title, text, id: generateUniqueId() }
 
   let currentNotes = await readCurrentDB()
   console.log(currentNotes);
