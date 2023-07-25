@@ -1,7 +1,7 @@
 # Note Taker
 
 ## Description
-This project is designed as a personal note taker to track personal tasks by adding and saving notes. These are the highlighted proficicncies throughout development:
+This project is refractored from a starter code designed as a personal note taker to track personal tasks by adding and saving notes. Users can help manage their day-to-day needs by adding notes. These are the highlighted proficicncies throughout the development process:
 * fs
 * routing
 * Express.js
